@@ -1,4 +1,4 @@
-### CleaningWearableData
+# CleaningWearableData
 Getting and Cleaning Data Course Project: R script creating tidy data set out of Samsung wearable data.
 
 
@@ -27,24 +27,27 @@ Folder C:\MyFolder\UCI HAR Dataset will be created after extraction.
 
 1. Reads the following 8 data files into memory:
 
-subject Ids of test and train data for each observation
+	* subject Ids of test and train data for each observation
+
 	/UCI HAR Dataset/test/subject_test.txt
 	/UCI HAR Dataset/train/subject_train.txt
 
-labels of test and train data for each observation 
+	* labels of test and train data for each observation 
 
 	/UCI HAR Dataset/test/y_test.txt
 	/UCI HAR Dataset/train/y_train.txt
 
-test and train data sets (features of body acceleration for each observation)
+	* test and train data sets (features of body acceleration for each observation)
 
 	/UCI HAR Dataset/test/X_test.txt")
 	/UCI HAR Dataset/train/X_train.txt")
 
-labels mapping to activities names 
+	* labels mapping to activities names
+ 
 	/UCI HAR Dataset/activity_labels.txt
 
-features names 
+	* features names 
+
 	/UCI HAR Datase/features.txt
 
 2. Changes labels given as numbers to corresponding strings that are descriptive activity names
@@ -52,9 +55,9 @@ like "LAYING", etc, using function  activityNames(label_test,activities). Code f
 located inside the main script file run_analisys.R
 
 3. After reading data script makes a sanity check that 
-	there are 561 features (columns) in the data sets
-	subject_test.txt, y_test.txt and X_test.txt have the same number of observations (rows)
-	subject_train.txt, y_train.txt and X_train.txt have the same number of observations (rows)
+	* there are 561 features (columns) in the data sets
+	* subject_test.txt, y_test.txt and X_test.txt have the same number of observations (rows)
+	* subject_train.txt, y_train.txt and X_train.txt have the same number of observations (rows)
 
 4. We want to extract only the measurements on the mean and standard deviation for each measurement.
 Assuming that these measurements have "mean()" or "std()" substrings in their full names, we 
