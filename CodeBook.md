@@ -32,24 +32,24 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 has been used to produce the tidy data set - table in the file "tidyData.txt":
 
 - subject Ids of test and train data for each observation
-	/UCI HAR Dataset/test/subject_test.txt
-	/UCI HAR Dataset/train/subject_train.txt
+  - /UCI HAR Dataset/test/subject_test.txt
+  - /UCI HAR Dataset/train/subject_train.txt
 
 - labels of test and train data for each observation 
 
-	/UCI HAR Dataset/test/y_test.txt
-	/UCI HAR Dataset/train/y_train.txt
+  - /UCI HAR Dataset/test/y_test.txt
+  - /UCI HAR Dataset/train/y_train.txt
 
 - test and train data sets (features of body acceleration for each observation)
 
-	/UCI HAR Dataset/test/X_test.txt")
-	/UCI HAR Dataset/train/X_train.txt")
+  - /UCI HAR Dataset/test/X_test.txt")
+  - /UCI HAR Dataset/train/X_train.txt")
 
 - labels mapping to activities names 
-	/UCI HAR Dataset/activity_labels.txt
+  - /UCI HAR Dataset/activity_labels.txt
 
 - features names 
-	/UCI HAR Datase/features.txt
+  - /UCI HAR Datase/features.txt
 
 
 ==================================================================
@@ -83,49 +83,49 @@ has been used to produce the tidy data set - table in the file "tidyData.txt":
 
 ==================================================================
 
- ##Code book:
+##Code book:
 
 ==================================================================
 
 - First column in the tidyData.txt is subject Id, which a consecutive numbers from 1 to 30
 - Second column is an activity performed by the subject. There are 6 activities coded
   with corresponding meaninful strings: 
-    SITTING
+  - SITTING
  
-    STANDING
-    LAYING 
-    WALKING
+  - STANDING
+  - LAYING 
+  - WALKING
 ,
-    WALKING_UPSTAIRS
+  - WALKING_UPSTAIRS
 
-    WALKING_DOWNSTAIRS
+  - WALKING_DOWNSTAIRS
  
 
 
 - Columns from 3d to 81st contain measurements of selected feature set of the acceleration signal
-avaraged per subject and activity. Features were normalized and bounded within [-1,1]
-in the original work. 
+averaged per subject and activity. Features were normalized and bounded within [-1,1]
+in the original work. Old variable names for the features were prefixed with string "mean-"
 
 - The selected feature set consist of Mean value(mean()) and Standard deviation(std()) 
 of 3-axial signals in the X,Y,Z directions for each of the following patters:
 
-	tBodyAcc-XYZ
-	tGravityAcc-XYZ
-	tBodyAccJerk-XYZ
-	tBodyGyro-XYZ
-	tBodyGyroJerk-XYZ
-	tBodyAccMag
-	tGravityAccMag
-	tBodyAccJerkMag
-	tBodyGyroMag
-	tBodyGyroJerkMag
-	fBodyAcc-XYZ
-	fBodyAccJerk-XYZ
-	fBodyGyro-XYZ
-	fBodyAccMag
-	fBodyAccJerkMag
-	fBodyGyroMag
-	fBodyGyroJerkMag
+  - tBodyAcc-XYZ
+  - tGravityAcc-XYZ
+  - tBodyAccJerk-XYZ
+  - tBodyGyro-XYZ
+  - tBodyGyroJerk-XYZ
+  - tBodyAccMag
+  - tGravityAccMag
+  - tBodyAccJerkMag
+  - tBodyGyroMag
+  - tBodyGyroJerkMag
+  - fBodyAcc-XYZ
+  - fBodyAccJerk-XYZ
+  - fBodyGyro-XYZ
+  - fBodyAccMag
+  - fBodyAccJerkMag
+  - fBodyGyroMag
+  - fBodyGyroJerkMag
 
 (pattern description is given in the original code book below)
 

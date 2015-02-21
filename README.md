@@ -29,26 +29,26 @@ Folder C:\MyFolder\UCI HAR Dataset will be created after extraction.
 
 	* subject Ids of test and train data for each observation
 
-	/UCI HAR Dataset/test/subject_test.txt
-	/UCI HAR Dataset/train/subject_train.txt
+	  * /UCI HAR Dataset/test/subject_test.txt
+	  * /UCI HAR Dataset/train/subject_train.txt
 
 	* labels of test and train data for each observation 
 
-	/UCI HAR Dataset/test/y_test.txt
-	/UCI HAR Dataset/train/y_train.txt
+	  * /UCI HAR Dataset/test/y_test.txt
+	  * /UCI HAR Dataset/train/y_train.txt
 
 	* test and train data sets (features of body acceleration for each observation)
 
-	/UCI HAR Dataset/test/X_test.txt")
-	/UCI HAR Dataset/train/X_train.txt")
+	  * /UCI HAR Dataset/test/X_test.txt")
+	  * /UCI HAR Dataset/train/X_train.txt")
 
 	* labels mapping to activities names
  
-	/UCI HAR Dataset/activity_labels.txt
+	  * /UCI HAR Dataset/activity_labels.txt
 
 	* features names 
 
-	/UCI HAR Datase/features.txt
+	  * /UCI HAR Datase/features.txt
 
 2. Changes labels given as numbers to corresponding strings that are descriptive activity names
 like "LAYING", etc, using function  activityNames(label_test,activities). Code for this function
